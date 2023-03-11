@@ -48,7 +48,7 @@ pipeline {
         stage('Webhook') {
             agent any
             steps {
-                echo 'pipeline-calculatrice-Jenkins-Webhook'
+                echo 'pipeline-calculatrice-Jenkins-Webhook-Test'
             }
         }
     }
